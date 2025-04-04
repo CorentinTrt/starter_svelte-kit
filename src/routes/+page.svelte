@@ -28,7 +28,6 @@
 		align-items: center;
 		justify-content: center;
 		flex: 0.6;
-		color: var(--color-primary);
 
 		.heading {
 			width: 100%;
