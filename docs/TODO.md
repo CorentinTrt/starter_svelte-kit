@@ -5,3 +5,4 @@
 - Try implementing theming with scss @use configuration and @with
 - Fix warning raised during the build phase
 - Implement native and complete LTR direction management
+- Implement breaking point management
