@@ -8,7 +8,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		vitePreprocess(),
-		preprocess({ scss: { prependData: '@use "src/lib/styles/theme";' } })
+		preprocess({ scss: { additionalData: '@use "src/lib/styles/theme";' } })
 	],
 	kit: {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
